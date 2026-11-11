@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Pocket Lanes Privacy Policy</title>
+<meta name="description" content="Support and privacy policy for Pocket Lanes, the bowling game for iPhone and iPhone Duo.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Inter:wght@400;500;600&display=swap">
+<style>
+/* Layout: one narrow reading column on the alley's night ink; the wordmark and the contact plate lead, the questions and the policy follow as plain text. One committed dark look, the game's own. */
+:root {
+  --ink: #0b0b0d;
+  --plate: #16131c;
+  --rule: #2a2533;
+  --text: #f4f5f7;
+  --dim: #b9bec6;
+  --pink: #ff1e7a;
+  --cyan: #00d8ff;
+  --yellow: #f4e800;
+  --display: "Dela Gothic One", "Hiragino Sans", "Arial Black", sans-serif;
+  --body: "Inter", -apple-system, "Helvetica Neue", Arial, sans-serif;
+  color-scheme: dark;
+}
+* { box-sizing: border-box; }
+body {
+  background: var(--ink);
+  color: var(--text);
+  font-family: var(--body);
+  font-size: 16px;
+  line-height: 1.6;
+  padding-left: max(16px, env(safe-area-inset-left, 0px));
+  padding-right: max(16px, env(safe-area-inset-right, 0px));
+  padding-block: 40px 64px;
+}
+.wrap { max-width: 680px; margin: 0 auto; display: flex; flex-direction: column; gap: 40px; }
+header { display: flex; flex-direction: column; gap: 6px; }
+.kana { font-family: var(--display); color: var(--cyan); font-size: 14px; letter-spacing: 0.12em; }
+h1 {
+  font-family: var(--display);
+  font-weight: 400;
+  font-size: clamp(40px, 9vw, 64px);
+  line-height: 1;
+  margin: 0;
+  letter-spacing: 0.01em;
+  color: var(--text);
+  text-shadow: 0 0 18px rgba(255, 30, 122, 0.55), 0 0 2px rgba(255, 30, 122, 0.9);
+  text-wrap: balance;
+}
+.lede { color: var(--dim); margin: 6px 0 0; max-width: 60ch; }
+nav { display: flex; flex-wrap: wrap; gap: 8px 18px; font-size: 14px; }
+nav a { color: var(--cyan); text-decoration: none; border-bottom: 1px solid transparent; }
+nav a:hover, nav a:focus-visible { border-bottom-color: var(--cyan); outline: none; }
+.contact {
+  background: var(--plate);
+  border: 1px solid var(--rule);
+  border-radius: 14px;
+  padding: 22px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.label { font-size: 12px; text-transform: uppercase; letter-spacing: 0.14em; color: var(--dim); margin: 0; }
+.mailrow { display: flex; flex-wrap: wrap; align-items: center; gap: 12px; }
+.mail {
+  font-family: var(--display);
+  font-size: clamp(20px, 5vw, 26px);
+  color: var(--yellow);
+  user-select: all;
+  -webkit-user-select: all;
+  overflow-wrap: anywhere;
+  min-width: 0;
+}
+button {
+  font: 600 14px var(--body);
+  color: var(--ink);
+  background: var(--cyan);
+  border: 0;
+  border-radius: 999px;
+  padding: 8px 16px;
+  cursor: pointer;
+}
+button:focus-visible { outline: 2px solid var(--yellow); outline-offset: 3px; }
+.contact p { margin: 0; color: var(--dim); }
+h2 {
+  font-family: var(--display);
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 1.2;
+  margin: 0 0 4px;
+  text-wrap: balance;
+}
+h3 { font-size: 17px; font-weight: 600; margin: 0; color: var(--text); }
+section { display: flex; flex-direction: column; gap: 18px; }
+.q { display: flex; flex-direction: column; gap: 4px; padding-top: 16px; border-top: 1px solid var(--rule); }
+.q p, .policy p { margin: 0; max-width: 65ch; }
+.q p { color: var(--dim); }
+.policy { display: flex; flex-direction: column; gap: 16px; }
+.policy h3 { color: var(--pink); }
+.policy .block { display: flex; flex-direction: column; gap: 4px; }
+.meta { font-size: 13px; color: var(--dim); }
+footer { font-size: 13px; color: var(--dim); border-top: 1px solid var(--rule); padding-top: 16px; }
+@media (prefers-reduced-motion: no-preference) {
+  button { transition: transform 0.12s ease; }
+  button:active { transform: scale(0.96); }
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <span class="kana" lang="ja">ポケットレーンズ</span>
+    <h1>Pocket Lanes</h1>
+    <p class="lede">The privacy policy for the bowling game for iPhone and iPhone Duo.</p>
+    <nav aria-label="Pages">
+      <a href="./">Support</a>
+      <a href="privacy.html">Privacy policy</a>
+    </nav>
+  </header>
+
+  <section id="privacy" class="policy" aria-labelledby="p-title">
+    <h2 id="p-title">Privacy policy</h2>
+    <p class="meta">Effective November 10, 2026. Pocket Lanes is made by Silas Beam.</p>
+    <div class="block">
+      <h3>What I collect: nothing</h3>
+      <p>The game has no account, no analytics, no ads and no server of mine. It sends me no data about you or how you play.</p>
+    </div>
+    <div class="block">
+      <h3>What stays on your iPhone</h3>
+      <p>Your scores, settings and progress. They are stored by the game on your phone and are deleted when you delete the game.</p>
+    </div>
+    <div class="block">
+      <h3>What Apple handles</h3>
+      <p>If you are signed in to Game Center, Apple receives your scores and achievements and shows your Game Center name on leaderboards. Purchases go through Apple's App Store; I see sales totals, never who you are or how you paid. Apple's own privacy policy covers these services.</p>
+    </div>
+    <div class="block">
+      <h3>Playing with a friend</h3>
+      <p>When you play on two phones, your throws, scores, chosen ball and lane, level and first name or Game Center name go to your friend's phone through Apple's SharePlay or Game Center, and theirs come to yours. If you play inside Messages, your score travels in the message you send. None of it passes through a server of mine.</p>
+    </div>
+    <div class="block">
+      <h3>Pictures and clips you choose to share</h3>
+      <p>A score card or a clip goes only where you send it from the share sheet. The game asks to add to your photos only when you choose to save one, and it never reads your photos. If you turn on Save clips, iOS keeps the last few seconds of the game's screen in memory on your phone; a clip is made only when you tap Clip. The game never records sound.</p>
+    </div>
+    <div class="block">
+      <h3>Age</h3>
+      <p>Pocket Lanes is rated 16+ on the App Store and is not directed at children.</p>
+    </div>
+    <div class="block">
+      <h3>Deleting your data</h3>
+      <p>I hold no data about you, so there is nothing for me to delete. Deleting the game removes what it stored on your phone. Game Center data is managed in your iPhone's Game Center settings.</p>
+    </div>
+    <div class="block">
+      <h3>Changes</h3>
+      <p>If this policy changes, the new version will be posted on this page with a new date.</p>
+    </div>
+    <div class="block">
+      <h3>Questions</h3>
+      <p>Write to pocketlanes@icloud.com.</p>
+    </div>
+  </section>
+
+  <footer>Pocket Lanes. Bowling for iPhone and iPhone Duo. Questions: pocketlanes@icloud.com</footer>
+</div>
+
+</body>
+</html>
